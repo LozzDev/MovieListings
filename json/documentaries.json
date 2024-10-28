@@ -1,0 +1,14 @@
+{
+    "documentaries":{
+        {
+        "id": 1,
+        "poster": "url",
+        "title": "titulo del documental",
+        "year": 1998,
+        "length": "1h 25m",
+        "director": "Antonio Banderas",
+        "synopsis": "se escribe la sinopsis"
+        }
+       
+    }
+}
