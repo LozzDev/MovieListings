@@ -21,12 +21,12 @@ async function fetchMoviesJson(){
          let synopsis= movies.documentaries[i].synopsis;
 
          moviesSection.innerHTML +=`
-             <div class="card" style="width: 18rem;">
-                 <img src="${poster}" class="card-img-top" alt="...">
+             <div class="card mx-auto mb-4" style="width: 18rem;">
+                 <img src="${poster}" class="card-img-top mt-2  " alt="...">
                  <div class="card-body">
-                 <h5 class="card-title">${title}</h5>
+                 <h5 class="card-title">${title} - ${year}</h5>
                  <p class="card-text">${synopsis}</p>
-                 <a href="#" class="btn btn-primary">Go somewhere</a>
+                 <a href="#" class="btn btn-primary d-flex justify-content-center">Ver ahora</a>
                  </div>
              </div>
          `
