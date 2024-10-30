@@ -1,3 +1,75 @@
 footer{
     background-color: black;
 }
+
+body:not(.loaded) .container {
+    visibility: hidden;
+  }
+
+  /* Oculta el contenido de la página inicialmente */
+  body:not(.loaded) .container {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s ease; /* Suave aparición del contenido */
+  }
+
+  /* Estilo para el loader */
+  #loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 1;
+    animation: myOpacity 2s ease-in-out forwards; /* Animación */
+  }
+  @keyframes myOpacity {
+    0% {opacity: 1;}
+
+    60%{opacity: 1;}
+
+    100%{opacity: 0;}
+  }
+
+  #loader img {
+    width: 100px;
+    height: 100px;
+    animation: spinZoomFade 2s ease-in-out forwards; /* Animación */
+  }
+
+  /* Definición de la animación */
+  @keyframes spinZoomFade {
+    0% {
+      transform: rotate(0deg) scale(0);
+      opacity: 1;
+    }
+    
+    100% {
+      transform: rotate(360deg) scale(5); /* Termina girado y más grande */
+      opacity: 0;
+    }
+  }
+
+  /* Cuando el loader desaparece */
+  .loaded #loader {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  /* Aparición suave del contenido */
+  .loaded .container {
+    visibility: visible;
+    opacity: 1;
+    animation: fadeIn 1s ease; /* Animación de entrada */
+  }
+
+  /* Definición de la animación fadeIn */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
