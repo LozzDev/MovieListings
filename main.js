@@ -44,7 +44,7 @@ async function fetchMoviesJson(){
  function zFilter(){
     const superFilms=document.getElementsByClassName("Z");
     const zImage = document.getElementById("zLogo");
-    const zFilms=document.getElementsByClassName("Super");
+    
 
     if(zImage.getAttribute("src") === "./images/Z-color.png"){
         zImage.setAttribute("src", "./images/Z-blanco-y-negro.png");
@@ -59,7 +59,27 @@ async function fetchMoviesJson(){
             superFilm.style.display="block";
         }
     }
-}     
+} 
+
+function superFilter(){
+    const zFilms=document.getElementsByClassName("Super");
+    const superImage = document.getElementById("superLogo");
+    
+
+    if(superImage.getAttribute("src") === "./images/super-color.png"){
+        superImage.setAttribute("src", "./images/super-blanco-y-negro.png");
+
+        for(let zFilm of zFilms){
+            zFilm.style.display="none";
+        }
+    }else if(superImage.getAttribute("src") === "./images/super-blanco-y-negro.png"){   
+        superImage.setAttribute("src", "./images/super-color.png");
+
+        for(let zFilm of zFilms){
+            zFilm.style.display="block";
+        }
+    }
+} 
 
  
 
