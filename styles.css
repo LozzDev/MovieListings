@@ -78,3 +78,24 @@ body:not(.loaded) .container {
     from { opacity: 0; }
     to { opacity: 1; }
   }
+
+  #zLogo{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  #zLogo:hover{
+    transform: scale(1.1);
+  }
+
+  #superLogo{
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  #superLogo:hover{
+    transform: scale(1.1);
+  }
+
+
+

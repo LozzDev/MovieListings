@@ -1,4 +1,4 @@
-const requestURL ="../json/documentaries.json";
+const requestURL ="json/documentaries.json";
 
 window.onload = function() {
     setTimeout(function() {
@@ -44,13 +44,20 @@ async function fetchMoviesJson(){
  function zFilter(){
     const superFilms=document.getElementsByClassName("Z");
     const zImage = document.getElementById("zLogo");
-    
+    const superImage = document.getElementById("superLogo");
 
     if(zImage.getAttribute("src") === "./images/Z-color.png"){
         zImage.setAttribute("src", "./images/Z-blanco-y-negro.png");
-
+        
         for(let superFilm of superFilms){
             superFilm.style.display="none";
+        }
+        if((superImage.getAttribute("src") === "./images/super-blanco-y-negro.png")){
+        
+            const gokuThinking = document.querySelector("#goku-thinking-container");
+            gokuThinking.style.display="block";
+            
+    
         }
     }else if(zImage.getAttribute("src") === "./images/Z-blanco-y-negro.png"){   
         zImage.setAttribute("src", "./images/Z-color.png");
@@ -58,13 +65,17 @@ async function fetchMoviesJson(){
         for(let superFilm of superFilms){
             superFilm.style.display="block";
         }
+        
+        const gokuThinking = document.querySelector("#goku-thinking-container");
+        gokuThinking.style.display="none";
     }
-} 
+
+ }
 
 function superFilter(){
     const zFilms=document.getElementsByClassName("Super");
     const superImage = document.getElementById("superLogo");
-    
+    const zImage = document.getElementById("zLogo");
 
     if(superImage.getAttribute("src") === "./images/super-color.png"){
         superImage.setAttribute("src", "./images/super-blanco-y-negro.png");
@@ -72,16 +83,21 @@ function superFilter(){
         for(let zFilm of zFilms){
             zFilm.style.display="none";
         }
+        if((zImage.getAttribute("src") === "./images/Z-blanco-y-negro.png")){
+        
+            const gokuThinking = document.querySelector("#goku-thinking-container");
+            gokuThinking.style.display="block";
+            
+    
+        }
     }else if(superImage.getAttribute("src") === "./images/super-blanco-y-negro.png"){   
         superImage.setAttribute("src", "./images/super-color.png");
 
         for(let zFilm of zFilms){
             zFilm.style.display="block";
         }
-    }
-} 
 
- 
-
-
-        
+        const gokuThinking = document.querySelector("#goku-thinking-container");
+        gokuThinking.style.display="none";
+    } 
+}
