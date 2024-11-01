@@ -101,3 +101,4 @@ function superFilter(){
         gokuThinking.style.display="none";
     } 
 }
+
