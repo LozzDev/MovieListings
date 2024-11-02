@@ -27,11 +27,12 @@ async function fetchMoviesJson(){
          let length= movies.documentaries[i].length;
          let director= movies.documentaries[i].director;
          let season = movies.documentaries[i].season;
+         let url=movies.documentaries[i].url;
          let synopsis= movies.documentaries[i].synopsis;
 
          moviesSection.innerHTML +=`
              <div class="card mx-auto mb-4 ${season}" style="width: 18rem;" >
-                 <img src="${poster}" class="card-img-top mt-2  " alt="...">
+                 <a href="${url}" target="_blank"><img src="${poster}" class="card-img-top mt-2  " alt="..." ></a>
                  <div class="card-body">
                  <h5 class="card-title">${title} - ${year}</h5>
                  <p class="card-text text-start">${synopsis}</p>
