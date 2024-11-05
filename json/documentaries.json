@@ -1,7 +1,7 @@
 {
     "documentaries": [
         {
-            "id": 4,
+            "id": 1,
             "poster": "images/4.webp",
             "title": "Garlick Junior inmortal",
             "year": 1989,
@@ -12,7 +12,7 @@
             "synopsis": "Garlick Junior busca venganza y secuestra a Gohan para obtener las Dragon Balls y obtener la inmortalidad."
         },
         {
-            "id": 5,
+            "id": 2,
             "poster": "images/5.webp",
             "title": "El más fuerte del mundo",
             "year": 1990,
@@ -23,7 +23,7 @@
             "synopsis": "El Dr. Willow despierta y busca el cuerpo más fuerte del mundo para implantar su cerebro, desatando una batalla con Goku y sus amigos."
         },
         {
-            "id": 6,
+            "id": 3,
             "poster": "images/6.webp",
             "title": "La superbatalla",
             "year": 1990,
@@ -34,7 +34,7 @@
             "synopsis": "Turles, un Saiyajin, planta el Árbol del Poder en la Tierra, amenazando el planeta. Goku y sus amigos intentan detenerlo."
         },
         {
-            "id": 7,
+            "id": 4,
             "poster": "images/7.webp",
             "title": "El Súper Guerrero Son Goku",
             "year": 1991,
@@ -45,7 +45,7 @@
             "synopsis": "Slug, un Namekiano maligno, llega a la Tierra en busca de juventud eterna, enfrentándose a Goku en una épica batalla."
         },
         {
-            "id": 8,
+            "id": 5,
             "poster": "images/8.webp",
             "title": "Los mejores rivales",
             "year": 1991,
@@ -56,7 +56,7 @@
             "synopsis": "Cooler, el hermano de Freezer, llega a la Tierra para vengar la muerte de su hermano y desafía a Goku."
         },
         {
-            "id": 9,
+            "id": 6,
             "poster": "images/9.webp",
             "title": "Guerreros de fuerza ilimitada",
             "year": 1992,
@@ -67,7 +67,7 @@
             "synopsis": "Los Guerreros Z se enfrentan al regreso de Cooler, quien ahora es un poderoso androide en busca de venganza."
         },
         {
-            "id": 10,
+            "id": 7,
             "poster": "images/10.webp",
             "title": "Los tres grandes Súper Sayanos",
             "year": 1992,
@@ -78,7 +78,7 @@
             "synopsis": "Goku, Vegeta y Trunks enfrentan a androides creados por el Dr. Gero, quienes representan una amenaza formidable."
         },
         {
-            "id": 11,
+            "id": 8,
             "poster": "images/11.webp",
             "title": "Estalla el Duelo",
             "year": 1993,
@@ -89,7 +89,7 @@
             "synopsis": "Broly, el Súper Saiyajin Legendario, se enfrenta a Goku y Vegeta en una feroz batalla de poder."
         },
         {
-            "id": 12,
+            "id": 9,
             "poster": "images/12.webp",
             "title": "Los guerreros de plata",
             "year": 1993,
@@ -100,7 +100,7 @@
             "synopsis": "Un torneo intergaláctico se convierte en una amenaza para los Guerreros Z cuando Bojack y sus secuaces atacan."
         },
         {
-            "id": 13,
+            "id": 10,
             "poster": "images/13.webp",
             "title": "El regreso de Broly",
             "year": 1994,
@@ -111,7 +111,7 @@
             "synopsis": "Broly reaparece, y Gohan, Goten y Trunks deben enfrentarlo en una batalla que pondrá a prueba su poder."
         },
         {
-            "id": 14,
+            "id": 11,
             "poster": "images/14.webp",
             "title": "El combate definitivo",
             "year": 1994,
@@ -122,7 +122,7 @@
             "synopsis": "Un bio-guerrero de Broly ataca, y Goten y Trunks deben detenerlo antes de que destruya la Tierra."
         },
         {
-            "id": 15,
+            "id": 12,
             "poster": "images/15.webp",
             "title": "Fusión",
             "year": 1995,
@@ -133,7 +133,7 @@
             "synopsis": "Goku y Vegeta se ven obligados a fusionarse para enfrentar a Janemba, un poderoso demonio del Otro Mundo."
         },
         {
-            "id": 16,
+            "id": 13,
             "poster": "images/16.webp",
             "title": "El Ataque del Dragón",
             "year": 1995,
@@ -144,7 +144,7 @@
             "synopsis": "Goku libera al legendario guerrero Tapion para detener a Hildegarn, un monstruo capaz de destruir el planeta."
         },
         {
-            "id": 18,
+            "id": 14,
             "poster": "images/18.webp",
             "title": "La batalla de los dioses",
             "year": 2013,
@@ -155,7 +155,7 @@
             "synopsis": "Goku se enfrenta a Bills, el Dios de la Destrucción, quien amenaza con destruir la Tierra si no encuentra un rival digno."
         },
         {
-            "id": 19,
+            "id": 15,
             "poster": "images/19.webp",
             "title": "La resurrección de Freezer",
             "year": 2015,
@@ -166,7 +166,7 @@
             "synopsis": "Freezer es resucitado y regresa a la Tierra para vengarse de Goku, desencadenando una nueva batalla."
         },
         {
-            "id": 20,
+            "id": 16,
             "poster": "images/20.webp",
             "title": "Dragon Ball Super: Broly",
             "year": 2018,
@@ -177,7 +177,7 @@
             "synopsis": "Goku y Vegeta enfrentan al Saiyajin legendario Broly, en un combate que desata nuevos niveles de poder."
         },
         {
-            "id": 21,
+            "id": 17,
             "poster": "images/21.webp",
             "title": "Dragon Ball Super: Super Hero",
             "year": 2022,
