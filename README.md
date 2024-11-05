@@ -25,3 +25,6 @@ WebPage about a list in cards view of Dragon Ball Z & Super movies using a JSON 
 
 - Dark mode: add dark mode.🌙
 - SEO: search engine optimization.🚀
+
+## Live View
+<p><a href="https://movie-listings-lake.vercel.app">Click here!</a></p>
