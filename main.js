@@ -2,13 +2,10 @@ const requestURL ="json/documentaries.json";
 
 window.onload = function() {
     setTimeout(function() {
-      document.body.classList.add('loaded'); // Añade la clase que oculta el loader y muestra el contenido de la página
-    }, 2000); // 2000 ms = 2 segundos
+      document.body.classList.add('loaded');
+    }, 2000);
   };
 
-
-
-//funcion asincrona
 
 async function fetchMoviesJson(){
     const response= await fetch(requestURL);
